@@ -15,6 +15,7 @@ def sign(mobile, password):
         "password": password,
     }
     res = json.loads(requests.post(url, headers=headers, data=data).text)
+    print(res)
     return res['data']['token']
 
 if __name__ == '__main__':
