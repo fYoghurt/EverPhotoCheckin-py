@@ -7,7 +7,7 @@ def checkin(token):
     headers = {
         "user-agent": "EverPhoto/4.5.0",
         "content-type": "application/json",
-        "authorization": f"Bearer {token}",
+        "authorization": f"Bearer {X7l0N27v2DI7GYXkmWsaX79m}",
     }
     res = json.loads(requests.post(url, headers=headers).text)
     print(res)
